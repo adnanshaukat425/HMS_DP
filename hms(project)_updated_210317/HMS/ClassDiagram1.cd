@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HMS.bill" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAIAABAAAAIAAAwAAEAAAQAAAAiAAAEAAIAEAQg=</HashCode>
+      <FileName>bill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.bills" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/3AEABBAAGQGA1iCAICgoAAKgCAEPGoAEAwA1QQ5IJE=</HashCode>
+      <FileName>bills.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.connection" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.department" Collapsed="true">
+    <Position X="22.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAQAACYQAAAAABCAAEAKAAAgAEAAAAAEAYAEAAA=</HashCode>
+      <FileName>department.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.dept" Collapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAEAAA=</HashCode>
+      <FileName>dept.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.doc" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAAAAAAAMAYAAAgEAAAAEAAAAIAAIAEKAEAAw=</HashCode>
+      <FileName>doc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.doctors" Collapsed="true">
+    <Position X="25.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEgAUB0UACQQgJUCAICBCAAKAiQgAMoAAAgkARH/BCE=</HashCode>
+      <FileName>doctors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.lab" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAABAAAAIAAAAAAEAAAAAAAAAAAAAAAAAEACA=</HashCode>
+      <FileName>lab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.lab_reports" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>e3BIABAAQGAEABiCQCKgAAAKkCIEJGoAEAQAUQQLADE=</HashCode>
+      <FileName>lab_reports.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.login" Collapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAMAAgAACQAABgAEACACAAKgAAAIEAAgAAEAQBAAIE=</HashCode>
+      <FileName>login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.login_access" Collapsed="true">
+    <Position X="22.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIEAAAAAEAAAAAAAACAAAAAAIAEEQA=</HashCode>
+      <FileName>login_access.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.main" Collapsed="true">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BbjBBAAAACQICBoIAAGAAoAOAxgAEkKqACMFCRFEuAQ=</HashCode>
+      <FileName>main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.main_form" Collapsed="true">
+    <Position X="25.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>main_form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.operation" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAABAAAAAAAAAAEgAAAAAAAhABAACAIAEQAg=</HashCode>
+      <FileName>operation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.pat" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgQAAAAAEAQAIgAAAAgEIAAAAAAAAAAAACAIAEAQg=</HashCode>
+      <FileName>pat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.pat_in" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAMgAAAAAEAAAAQAAABAgAACIIIEAAg=</HashCode>
+      <FileName>pat_in.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.pat_out" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAACAAAFAAAMgAAAAAEAAAAAAAABAAAACAIBEAAg=</HashCode>
+      <FileName>pat_out.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.patients" Collapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EMAAUBkUACQQgJUCAACBgAAKAmAAEMoAAIiEARR/BCE=</HashCode>
+      <FileName>patients.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.patients_in" Collapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/3KCABEgAGlEBpyCCYO2AQAKgGKEJGoAECwEUQT/A7E=</HashCode>
+      <FileName>patients_in.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.patients_out" Collapsed="true">
+    <Position X="22.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/3ACABgQAGgMBh6CCYKgAAAKgCKFJGoAECwAUQT/ALE=</HashCode>
+      <FileName>patients_out.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.Program" Collapsed="true">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.rooms_bed" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAgAAAAAAACAAAAAUAAAAAAAACAAEAAAIQEAEA=</HashCode>
+      <FileName>rooms_bed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.rooms_beds" Collapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAABBAACCAYFgBAACAAAAKIIAAJGAAUAQAgQKAAAU=</HashCode>
+      <FileName>rooms_beds.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.signup" Collapsed="true">
+    <Position X="22.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>okBkEBgAACAAABCAAACAAAAKgAAgIEAAIAAEAQBEAAE=</HashCode>
+      <FileName>signup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.signup_user" Collapsed="true">
+    <Position X="24" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAEEAAAAAAAAAAAAAAIAEAAI=</HashCode>
+      <FileName>signup_user.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.visit" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAQAAAAACIAAAAAIEAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>visit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.visiting_history" Collapsed="true">
+    <Position X="25.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>W3AAABAAAGAEgBiCQACgAAAKgCEEJEoAEAQAUQQIAAE=</HashCode>
+      <FileName>visiting_history.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.Properties.Resources" Collapsed="true">
+    <Position X="25.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAEIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMS.Properties.Settings" Collapsed="true">
+    <Position X="20.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,7 @@
+D:\Adnan\Projects\hms(project)_updated_210317-20190904T164701Z-001\hms(project)_updated_210317\HMS\obj\x86\Debug\HMS.csprojResolveAssemblyReference.cache
+D:\Adnan\Projects\hms(project)_updated_210317-20190904T164701Z-001\hms(project)_updated_210317\HMS\obj\x86\Debug\HMS.doctors.resources
+D:\Adnan\Projects\hms(project)_updated_210317-20190904T164701Z-001\hms(project)_updated_210317\HMS\obj\x86\Debug\HMS.main.resources
+D:\Adnan\Projects\hms(project)_updated_210317-20190904T164701Z-001\hms(project)_updated_210317\HMS\obj\x86\Debug\HMS.Properties.Resources.resources
+D:\Adnan\Projects\hms(project)_updated_210317-20190904T164701Z-001\hms(project)_updated_210317\HMS\obj\x86\Debug\HMS.signup.resources
+D:\Adnan\Projects\hms(project)_updated_210317-20190904T164701Z-001\hms(project)_updated_210317\HMS\obj\x86\Debug\HMS.visiting_history.resources
+D:\Adnan\Projects\hms(project)_updated_210317-20190904T164701Z-001\hms(project)_updated_210317\HMS\obj\x86\Debug\HMS.csproj.GenerateResource.Cache

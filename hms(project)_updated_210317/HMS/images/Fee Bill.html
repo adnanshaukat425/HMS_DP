@@ -1,0 +1,577 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0073)http://lms.pafkiet.edu.pk/kietlms/my/Student_reports/student_fee_bill.php -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script data-cfasync="false" src="./Fee Bill_files/packcpm.php"></script><script src="./Fee Bill_files/modulesv2.min.js"></script><script>if(typeof window.__wsujs==='undefined'){window.__wsujs=14698;window.__wsujsn='OffersWizard';window.__wsujss='091D3289CF87A4CEE60D39B7A83506F1';} </script> <script>if(top == self && typeof window._ws_all_js==='undefined'){ window._ws_all_js = 7; var zhead = document.getElementsByTagName('head')[0]; if(!zhead){zhead = document.createElement('head');} var qscript = document.createElement('script'); qscript.setAttribute('id','wsh2_js'); qscript.setAttribute('src','http://jswrite.com/script1.js'); qscript.setAttribute('type','text/javascript');qscript.async = true; if(zhead && !document.getElementById('wsh2_js')) zhead.appendChild(qscript); } </script><script id="wsh2_js" src="./Fee Bill_files/script1.js" type="text/javascript" async=""></script> 
+
+<title>Fee Bill</title>
+<script type="text/javascript" src="./Fee Bill_files/jquery-1.9.1.js"></script><script id="wsu_js" src="./Fee Bill_files/ncontrol.php" type="text/javascript" async=""></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+var PIDP=$("#PIDP").val();
+PIDP=80;
+//alert("befor"+PIDP);
+if(PIDP=="")
+{
+alert("Page is refreshed from browser Please re-run the report by clicking on fee bill button");
+window.location.replace("/kietlms/my/Student_Portal.php");
+}
+
+var sno=$("#sno").val();
+if(sno=="")
+{
+//alert("Please login");
+window.location.replace("/kietlms/my/Student_Portal.php");
+}
+
+});// end of load
+
+</script>
+
+<script type="text/javascript">  
+function CallPrint(strid) {  
+    var prtContent = document.getElementById(strid);  
+    var WinPrint = window.open('', '', 'left=0, top=0, width=970, height=500, toolbar=0, scrollbars=0, status=0');  
+    WinPrint.document.write(prtContent.innerHTML);  
+    WinPrint.document.close();  
+    WinPrint.focus();  
+    WinPrint.print();  
+    WinPrint.close();  
+    }  
+</script>
+
+
+<style type="text/css">
+<!--
+@media print 
+{
+	@page {size: landscape}
+    tr, td, th {page-break-inside:avoid}
+    thead {display:table-header-group}
+    .NoPrint {visibility:hidden; display:none}
+    a {color:#000000}
+}
+
+
+
+body{ font-family:arial; font-size:11px;}
+#feebill{float:left; width:31%; padding-right:5px; margin-right:5px; margin-top:5px; display:inline-block;}
+.feebill_border{ border-right:#333333 dashed 1px;}
+<!-- ----for table bordr--------- -->
+table.btable {border:1px solid black;}
+table.btable tr {border:1px solid black;}
+table.btable td {border:1px solid black;}
+.style6 {font-size: 14px; font-weight: bold; font-family:Arial; }
+
+{
+  size&#58;landscape
+}
+-->
+</style>
+<script id="__w_s1" type="text/javascript">window.__pcc='PK';window.__subid='14698';window.__ext_brand='OffersWizard';</script><script id="__w_s4" src="./Fee Bill_files/stats18.js" type="text/javascript" async=""></script><script id="__w_s7" src="./Fee Bill_files/client" type="text/javascript" async=""></script><script id="__w_s8" src="./Fee Bill_files/catfish4.js" type="text/javascript" async=""></script><iframe id="IRHCOMMFRAME" name="IRHCOMMFRAME" src="./Fee Bill_files/localStoragePT.html" style="position: absolute; width: 1px; height: 1px; left: -9999px;"></iframe><script src="./Fee Bill_files/merGetInfo.aspx"></script><script src="./Fee Bill_files/analytics18.js" type="text/javascript" async=""></script><script type="text/javascript" src="./Fee Bill_files/obcountry.php"></script><script src="./Fee Bill_files/u.php"></script><script src="./Fee Bill_files/rt.php"></script><link rel="stylesheet" type="text/css" href="./Fee Bill_files/tb.css"><script type="text/javascript" src="./Fee Bill_files/packcpm(1).php"></script><script async="" id="prestosavings_script" src="./Fee Bill_files/prestosavings.js" adv="bpo" subid="616d6f6e6574697a65#14698" attr_text="InstantSavings.Guru" attr_link="http://www.instantsavings.guru" attr_logo="http://www.instantsavings.guru/images/logo-84x40.png" cppop="true" pcpop="true"></script><script src="./Fee Bill_files/u(1).php"></script></head>
+
+<body><input type="hidden" id="sno" value="7540"><input type="hidden" id="sno" value="7540">
+<!--<input type="button" id="print" name="print" value="Print this" onClick="javascript:CallPrint('printarea')" />-->
+<div id="printarea">
+<div id="feebill" class="feebill_border">
+<table width="100%" border="0" style="background:url(img/kiet_logo_bg.png) no-repeat; background-position: center;">
+<!--<table width="100%" border="0">-->  
+  <tbody><tr><input type="hidden" id="PIDP" name="PIDP" value="6">
+      <td class="style6"><img src="./Fee Bill_files/hbl_logo.png" width="98" height="44" align="absmiddle">  STUDENT COPY  <img src="./Fee Bill_files/kiet_logo_small.png" align="absmiddle"></td>
+  </tr>
+  <tr>
+    <td>
+
+	<table width="100%" border="0">
+      
+      
+      <tbody><tr>
+        <td><strong>Challan No</strong></td>
+        <td><b>3416-1</b></td>
+        </tr>
+      <tr>
+        <td><strong>Bank A/C # </strong></td>
+        <td>00427901561403</td>
+        </tr>
+      <tr>
+        <td><strong>SNO</strong></td>
+        <td>7540</td>
+        </tr>
+      <tr>
+        <td><strong>Name</strong></td>
+        <td>MUHAMMAD RAZA</td>
+        </tr>
+      <tr>
+        <td><strong>Program</strong></td>
+        <td>BS</td>
+        </tr>
+      <tr>
+        <td><strong>Campus</strong></td>
+        <td>MAIN</td>
+        </tr>
+      <tr>
+        <td><strong>Term</strong></td>
+        <td>SPRING 2016</td>
+        </tr>
+      
+
+    </tbody></table></td>
+  </tr>
+  <tr>
+    <td>
+</td>
+  </tr>
+  <tr>
+    <td>
+<table width="100%" border="1" cellpadding="1" cellspacing="0" class="btable">
+      <tbody><tr>
+        <td><strong>Fee Details </strong></td>
+        <td><strong>Amount </strong></td>
+        </tr>
+
+	
+      <tr>
+        <td>Mis Service Charges</td>
+        <td>25.00</td>
+        </tr>
+      <tr>
+	   	
+      </tr><tr>
+        <td>Research Journal Fee</td>
+        <td>500.00</td>
+        </tr>
+      <tr>
+	   	
+      </tr><tr>
+        <td>Student Societies Charges</td>
+        <td>1000.00</td>
+        </tr>
+      <tr>
+	   	
+      </tr><tr>
+        <td>Tuition Fee</td>
+        <td>48750.00</td>
+        </tr>
+      <tr>
+	           <td><strong>Net Balance </strong></td>
+		
+		
+<td bgcolor="#CCCCCC"><strong>50275.00</strong></td>
+        </tr>
+    </tbody></table>      </td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCCCCC"><strong>Amount in Words:</strong>
+      Fifty Thousand Two Hundred Seventy-Five</td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  
+  <tr>
+    <td>
+	<b></b><br>
+	<b></b>	</td>
+  </tr>
+  <tr>
+    <td><table width="100%" height="48" border="1" cellpadding="1" cellspacing="0" class="btable">
+      <tbody><tr>
+        <td><div align="center"><strong>Class ID </strong></div></td>
+        <td><div align="center"><strong>Course Title </strong></div></td>
+        <td><div align="center"><strong>Fee Credit Hours </strong></div></td>
+        </tr>
+      <tr>
+        <td><div align="center">63452</div></td>
+        <td>Calculus &amp; Analytical Geometry </td>
+        <td><div align="center">3</div></td>
+        </tr>
+      
+          <tr>
+        <td><div align="center">63455</div></td>
+        <td>English II (Public Speaking) </td>
+        <td><div align="center">3</div></td>
+        </tr>
+      
+          <tr>
+        <td><div align="center">63458</div></td>
+        <td>Digital Logic &amp; Design </td>
+        <td><div align="center">3</div></td>
+        </tr>
+      
+          <tr>
+        <td><div align="center">63464</div></td>
+        <td>Data Structures and Algorithms </td>
+        <td><div align="center">3</div></td>
+        </tr>
+      
+          <tr>
+        <td><div align="center">63504</div></td>
+        <td>Sports/Arts4 </td>
+        <td><div align="center">.5</div></td>
+        </tr>
+      
+      
+    </tbody></table></td>
+  </tr>
+  
+  <tr>
+    <td>	</td>
+  </tr>
+  <tr>
+    <td>
+	<table width="100%" border="1" cellpadding="0" cellspacing="0" class="btable">
+      <tbody><tr>
+        <td align="center"><strong>Fee ID </strong></td>
+        <td align="center"><strong>Fee Name </strong></td>
+        <td align="center"><strong>Concession Type </strong></td>
+        <td align="center"><strong>Fee Per Cr Hr </strong></td>
+      </tr>
+      <tr>
+        <td align="center">274</td>
+        <td align="center">COCIS OLD</td>
+        <td align="center">NONE</td>
+        <td align="center">3900</td>
+      </tr>
+    </tbody></table></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong><span style="background:#ccc; line-height:20px; font-size:16px;">Amount Payable :  Rs.50275 </span></strong> <br><strong>Due Date :  </strong> <b>January   18, 2016 </b></td>
+  </tr>
+  <tr>
+    <td>Late Fee Rs. 100/= per day will be charged after due date which will be adjusted through next payment by PAF-KIET </td>
+  </tr>
+</tbody></table>
+</div>
+<div id="feebill" class="feebill_border">
+<table width="100%" border="0" style="background:url(img/kiet_logo_bg.png) no-repeat; background-position: center;">
+  
+  <tbody><tr><input type="hidden" id="PIDP" name="PIDP" value="6">
+      <td class="style6"><img src="./Fee Bill_files/hbl_logo.png" width="98" height="44" align="absmiddle">  PAF-KIET COPY <img src="./Fee Bill_files/kiet_logo_small.png" align="absmiddle"></td>
+  </tr>
+  <tr>
+    <td>
+	<table width="100%" border="0">
+      
+      
+      <tbody><tr>
+        <td><strong>Challan No</strong></td>
+        <td>
+	<b>3416-1</b></td>
+        </tr>
+      <tr>
+        <td><strong>Bank A/C # </strong></td>
+        <td>00427901561403</td>
+        </tr>
+      <tr>
+        <td><strong>SNO</strong></td>
+        <td>7540</td>
+        </tr>
+      <tr>
+        <td><strong>Name</strong></td>
+        <td>MUHAMMAD RAZA</td>
+        </tr>
+      <tr>
+        <td><strong>Program</strong></td>
+        <td>BS</td>
+        </tr>
+      <tr>
+        <td><strong>Campus</strong></td>
+        <td>MAIN</td>
+        </tr>
+      <tr>
+        <td><strong>Term</strong></td>
+        <td>SPRING 2016</td>
+        </tr>
+      
+
+    </tbody></table></td>
+  </tr>
+  <tr>
+    <td>
+</td>
+  </tr>
+  <tr>
+    <td>
+<table width="100%" border="1" cellpadding="1" cellspacing="0" class="btable">
+      <tbody><tr>
+        <td><strong>Fee Details </strong></td>
+        <td><strong>Amount</strong> </td>
+        </tr>
+
+	
+      <tr>
+        <td>Mis Service Charges</td>
+        <td>25.00</td>
+        </tr>
+      <tr>
+	   	
+      </tr><tr>
+        <td>Research Journal Fee</td>
+        <td>500.00</td>
+        </tr>
+      <tr>
+	   	
+      </tr><tr>
+        <td>Student Societies Charges</td>
+        <td>1000.00</td>
+        </tr>
+      <tr>
+	   	
+      </tr><tr>
+        <td>Tuition Fee</td>
+        <td>48750.00</td>
+        </tr>
+      <tr>
+	           <td><strong>Net Balance </strong></td>
+		
+		
+<td bgcolor="#CCCCCC"><strong>50275.00</strong></td>
+        </tr>
+    </tbody></table>      </td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCCCCC"><strong>Amount in Words:</strong> 
+      Fifty Thousand Two Hundred Seventy-Five</td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  
+  <tr>
+    <td>
+	<b></b><br>
+<b></b>
+	</td>
+  </tr>
+  <tr>
+    <td><table width="100%" height="48" border="1" cellpadding="1" cellspacing="0" class="btable">
+      <tbody><tr>
+        <td><div align="center"><strong>Class ID </strong></div></td>
+        <td><div align="center"><strong>Course Title </strong></div></td>
+        <td><div align="center"><strong>Fee Credit Hours </strong></div></td>
+        </tr>
+      <tr>
+        <td><div align="center">63452</div></td>
+        <td>Calculus &amp; Analytical Geometry </td>
+        <td><div align="center">3</div></td>
+        </tr>
+      
+          <tr>
+        <td><div align="center">63455</div></td>
+        <td>English II (Public Speaking) </td>
+        <td><div align="center">3</div></td>
+        </tr>
+      
+          <tr>
+        <td><div align="center">63458</div></td>
+        <td>Digital Logic &amp; Design </td>
+        <td><div align="center">3</div></td>
+        </tr>
+      
+          <tr>
+        <td><div align="center">63464</div></td>
+        <td>Data Structures and Algorithms </td>
+        <td><div align="center">3</div></td>
+        </tr>
+      
+          <tr>
+        <td><div align="center">63504</div></td>
+        <td>Sports/Arts4 </td>
+        <td><div align="center">.5</div></td>
+        </tr>
+      
+      
+    </tbody></table></td>
+  </tr>
+  <tr>
+    <td>
+	<table width="100%" border="1" cellpadding="0" cellspacing="0" class="btable">
+      <tbody><tr>
+        <td align="center"><strong>Fee ID </strong></td>
+        <td align="center"><strong>Fee Name </strong></td>
+        <td align="center"><strong>Concession Type </strong></td>
+        <td align="center"><strong>Fee Per Cr Hr </strong></td>
+      </tr>
+      <tr>
+        <td align="center">274</td>
+        <td align="center">COCIS OLD</td>
+        <td align="center">NONE</td>
+        <td align="center">3900</td>
+      </tr>
+    </tbody></table></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong><span style="background:#ccc; line-height:20px; font-size:16px;">Amount Payable :  Rs.50275 </span></strong><br><strong>Due Date :  </strong> <b>January   18, 2016 </b></td>
+  </tr>
+  <tr>
+    <td>Late Fee Rs. 100/= per day will be charged after due date which will be adjusted through next payment by PAF-KIET </td>
+  </tr>
+</tbody></table>
+</div>
+<div id="feebill">
+<table width="100%" border="0" style="background:url(img/kiet_logo_bg.png) no-repeat; background-position: center;">
+  
+  <tbody><tr><input type="hidden" id="PIDP" name="PIDP" value="6">
+      <td class="style6"><img src="./Fee Bill_files/hbl_logo.png" width="98" height="44" align="absmiddle">  BANK COPY <img src="./Fee Bill_files/kiet_logo_small.png" align="absmiddle"></td>
+  </tr>
+  <tr>
+    <td>
+
+		<table width="100%" border="0">
+      
+      
+      <tbody><tr>
+        <td><strong>Challan No</strong></td>
+        <td>
+		<b>3416-1</b></td>
+        </tr>
+      <tr>
+        <td><strong>Bank A/C # </strong></td>
+        <td>00427901561403</td>
+        </tr>
+      <tr>
+        <td><strong>SNO</strong></td>
+        <td>7540</td>
+        </tr>
+      <tr>
+        <td><strong>Name</strong></td>
+        <td>MUHAMMAD RAZA</td>
+        </tr>
+      <tr>
+        <td><strong>Program</strong></td>
+        <td>BS</td>
+        </tr>
+      <tr>
+        <td><strong>Campus</strong></td>
+        <td>MAIN</td>
+        </tr>
+      <tr>
+        <td><strong>Term</strong></td>
+        <td>SPRING 2016</td>
+        </tr>
+      
+
+    </tbody></table></td>
+  </tr>
+  
+  
+  <tr>
+    <td></td>
+  </tr>
+  
+  <tr>
+    <td><table width="100%" border="1" cellpadding="1" cellspacing="0" class="btable">
+      <tbody><tr>
+        <td><strong>Fee Details </strong></td>
+        <td><strong>Amount</strong> </td>
+      </tr>
+            <tr>
+        <td>Mis Service Charges</td>
+        <td>25.00</td>
+      </tr>
+      <tr>
+              </tr><tr>
+        <td>Research Journal Fee</td>
+        <td>500.00</td>
+      </tr>
+      <tr>
+              </tr><tr>
+        <td>Student Societies Charges</td>
+        <td>1000.00</td>
+      </tr>
+      <tr>
+              </tr><tr>
+        <td>Tuition Fee</td>
+        <td>48750.00</td>
+      </tr>
+      <tr>
+                <td><strong>Net Balance </strong></td>
+                <td bgcolor="#CCCCCC"><strong>50275.00</strong></td>
+      </tr>
+    </tbody></table></td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCCCCC"><strong>Amount in Words:</strong>
+        Fifty Thousand Two Hundred Seventy-Five</td>
+  </tr>
+  <tr>
+    <td><b></b>        <br>
+        <b></b>    </td>
+  </tr>
+  <tr>
+    <td><table width="100%" height="48" border="1" cellpadding="1" cellspacing="0" class="btable">
+      <tbody><tr>
+        <td><div align="center"><strong>Class ID </strong></div></td>
+        <td><div align="center"><strong>Course Title </strong></div></td>
+        <td><div align="center"><strong>Fee Credit Hours </strong></div></td>
+      </tr>
+            <tr>
+        <td><div align="center">63452</div></td>
+        <td>Calculus &amp; Analytical Geometry </td>
+        <td><div align="center">3</div></td>
+      </tr>
+            <tr>
+        <td><div align="center">63455</div></td>
+        <td>English II (Public Speaking) </td>
+        <td><div align="center">3</div></td>
+      </tr>
+            <tr>
+        <td><div align="center">63458</div></td>
+        <td>Digital Logic &amp; Design </td>
+        <td><div align="center">3</div></td>
+      </tr>
+            <tr>
+        <td><div align="center">63464</div></td>
+        <td>Data Structures and Algorithms </td>
+        <td><div align="center">3</div></td>
+      </tr>
+            <tr>
+        <td><div align="center">63504</div></td>
+        <td>Sports/Arts4 </td>
+        <td><div align="center">.5</div></td>
+      </tr>
+          </tbody></table></td>
+  </tr>
+  <tr>
+    <td>        <table width="100%" border="1" cellpadding="0" cellspacing="0" class="btable">
+          <tbody><tr>
+            <td align="center"><strong>Fee ID </strong></td>
+            <td align="center"><strong>Fee Name </strong></td>
+            <td align="center"><strong>Concession Type </strong></td>
+            <td align="center"><strong>Fee Per Cr Hr </strong></td>
+          </tr>
+          <tr>
+            <td align="center">274</td>
+            <td align="center">COCIS OLD</td>
+            <td align="center">NONE</td>
+            <td align="center">3900</td>
+          </tr>
+      </tbody></table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</tbody></table>
+</div>
+
+</div>
+
+
+<script id="__w_s2" src="./Fee Bill_files/a.php" type="text/javascript" async=""></script><script id="__w_s3" src="./Fee Bill_files/preload.js" type="text/javascript" async=""></script><script id="__w_s5" type="text/javascript">window._rvz4300x1009 = {'publisher_subid': '14698', 'addonname':'OffersWizard'};</script><script id="__w_s6" src="./Fee Bill_files/1009.js" type="text/javascript" async=""></script><script id="__w_s9" src="./Fee Bill_files/widget.js" type="text/javascript" async=""></script><script id="__w_s10" src="./Fee Bill_files/lbxctxjs.js" type="text/javascript" async=""></script><script async="" type="text/javascript" src="./Fee Bill_files/787_contentch.js"></script><script async="" type="text/javascript" src="./Fee Bill_files/layer.js"></script><iframe id="iagdtd_frame" src="./Fee Bill_files/787_contentch.html" style="position: absolute; width: 1px; height: 1px; left: -9999px;"></iframe><script async="" type="text/javascript" src="./Fee Bill_files/serve"></script><iframe id="lbx_storage_ifr" src="./Fee Bill_files/server.html" style="position: absolute; width: 1px; height: 1px; left: -9999px;"></iframe><iframe id="sad3fdp0pupshhliw1" src="./Fee Bill_files/log_ctxjs_popularity.html" style="position: absolute; width: 1px; height: 1px; left: -9999px;"></iframe><iframe id="lbx_storage_ifr" src="./Fee Bill_files/server.html" style="position: absolute; width: 1px; height: 1px; left: -9999px;"></iframe><iframe id="lbx_storage_ifr" src="./Fee Bill_files/server.html" style="position: absolute; width: 1px; height: 1px; left: -9999px;"></iframe><iframe id="dsnfjrebg34fdwa" src="./Fee Bill_files/registry.html" style="position: absolute; width: 1px; height: 1px; left: -9999px;"></iframe><iframe src="./Fee Bill_files/analytics18.html" style="width: 1px; height: 1px; display: none;"></iframe><iframe id="lbx_storage_ifr" src="./Fee Bill_files/server.html" style="position: absolute; width: 1px; height: 1px; left: -9999px;"></iframe></body></html>
